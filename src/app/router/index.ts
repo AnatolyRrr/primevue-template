@@ -5,6 +5,9 @@ const mainRoutes: Readonly<RouteRecordRaw[]> = [
     path: '/',
     name: 'home',
     component: () => import('@/modules/home/pages/MainPage.vue'),
+    meta: {
+      public: true,
+    }
   },
 ];
 

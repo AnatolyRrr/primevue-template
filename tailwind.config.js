@@ -26,8 +26,10 @@ export default {
         // add new color variables here
         blackText: 'rgba(44, 44, 44, 1)',
         greyText: 'rgba(108, 117, 125, 1)',
+        darkBlueText: 'rgba(0, 109, 175, 1)',
         bodyBackground: 'rgba(248, 249, 250, 1)',
         headerBackground: 'rgba(51, 47, 55, 1)',
+        lightBlueBackground: 'rgba(205, 236, 255, 1)',
       },
     },
   },

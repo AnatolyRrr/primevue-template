@@ -8,6 +8,7 @@ export default {
     const config: IRequestConfig = {
       accessType: 'public',
     };
+    
     return httpClient.post(`${apiModule}`, body, config).then((res) => res.data);
   },
 };
