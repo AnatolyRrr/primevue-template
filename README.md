@@ -1,6 +1,6 @@
 # BAS
 
-This is main frontend repository of the ЦРК БАС project.
+This is main frontend repository of the BAS project.
 
 ## Installation
 
