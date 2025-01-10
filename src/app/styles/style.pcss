@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./prime.pcss";
+
+@layer base {
+  html {
+    @apply font-plex text-base leading-5 font-normal text-blackText;
+
+    body {
+      @apply bg-bodyBackground;
+    }
+
+    h1 {
+      @apply text-4xl leading-10 font-bold tracking-wider;
+    }
+    h2 {
+      @apply text-3xl leading-10 font-bold tracking-wider;
+    }
+    h3 {
+      @apply text-2xl leading-8 font-bold;
+    }
+    h4 {
+      @apply text-xl leading-6 font-bold;
+    }
+    h5 {
+      @apply text-base leading-5 font-semibold tracking-wider;
+    }
+    h6 {
+      @apply text-sm leading-5 font-medium tracking-wider;
+    }
+  }
+}
