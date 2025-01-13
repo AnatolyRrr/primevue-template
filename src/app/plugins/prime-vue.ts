@@ -5,8 +5,8 @@ import { definePreset, palette } from '@primevue/themes';
 
 // palette returns shades and tints of a given color from 50 to 950 as an object.
 const primaryColor = palette('#008DE2');
-const redColor = palette('#C22121');
 const surfaceColor = palette('#6C757D');
+const dangerColor = palette('#C22121');
 const darkBlueColor = palette('#006DAF');
 const lightBlueColor = palette('#CDECFF');
 
@@ -14,7 +14,7 @@ const lightBlueColor = palette('#CDECFF');
 const CustomAuraPreset = definePreset(Aura, {
   semantic: {
     primary: primaryColor,
-    red: redColor,
+    red: dangerColor,
     colorScheme: {
       light: {
         surface: surfaceColor,

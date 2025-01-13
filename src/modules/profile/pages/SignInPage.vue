@@ -3,5 +3,5 @@ import { UiTypography } from '@/shared/ui';
 </script>
 
 <template>
-  <UiTypography as="p" variant="h1-upper">Главная</UiTypography>
+  <UiTypography as="h1" variant="h1-upper">Profile</UiTypography>
 </template>

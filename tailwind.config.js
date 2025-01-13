@@ -30,6 +30,7 @@ export default {
         bodyBackground: 'rgba(248, 249, 250, 1)',
         headerBackground: 'rgba(51, 47, 55, 1)',
         lightBlueBackground: 'rgba(205, 236, 255, 1)',
+        danger: 'rgba(194, 33, 33, 1)',
       },
     },
   },
